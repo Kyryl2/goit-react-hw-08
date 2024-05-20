@@ -1,12 +1,12 @@
 import { useSelector } from "react-redux";
 import Contact from "../Contact/Contact";
 import c from "./ContactList.module.css";
+
+import { DNA } from "react-loader-spinner";
 import {
-  getError,
   getIsLoading,
   selectFilteredContacts,
-} from "../../redux/contactsSlice";
-import { DNA } from "react-loader-spinner";
+} from "../../redux/contacts/slice";
 
 const ContactList = () => {
   const filteredContacts = useSelector(selectFilteredContacts);
