@@ -3,10 +3,9 @@ import Contact from "../Contact/Contact";
 import c from "./ContactList.module.css";
 
 import { DNA } from "react-loader-spinner";
-import {
+import selectFilteredContacts, {
   getIsLoading,
-  selectFilteredContacts,
-} from "../../redux/contacts/slice";
+} from "../../redux/contacts/selectors";
 
 const ContactList = () => {
   const filteredContacts = useSelector(selectFilteredContacts);
