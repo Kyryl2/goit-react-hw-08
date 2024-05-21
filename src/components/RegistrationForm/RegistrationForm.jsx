@@ -10,12 +10,12 @@ const RegistrationForm = () => {
   const emailFieldId = nanoid();
   const passFielfId = nanoid();
   const initialValues = {
-    username: "",
+    name: "",
     email: "",
     password: "",
   };
-  const handleSubmit = (values) => {
-    dispatch(register(values));
+  const handleSubmit = ({ name, email, password }) => {
+    dispatch(register({ name, email, password }));
   };
   return (
     <Formik initialValues={initialValues} onSubmit={handleSubmit}>
@@ -24,7 +24,7 @@ const RegistrationForm = () => {
 
         <Field
           type="text"
-          name="username"
+          name="name"
           placeholder="name"
           className={c.input}
           required

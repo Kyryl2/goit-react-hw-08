@@ -4,7 +4,7 @@ import { logout } from "../../redux/auth/operations";
 import c from "./UserMenu.module.css";
 const UserMenu = () => {
   const dispatch = useDispatch();
-  const { user } = useSelector(selectUser);
+  const user = useSelector(selectUser);
 
   return (
     <div className={c.wrapper}>
