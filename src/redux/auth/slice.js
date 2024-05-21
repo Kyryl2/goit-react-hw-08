@@ -13,9 +13,9 @@ const initialState = {
 const authSlice = createSlice({
   name: "auth",
   initialState,
-  extraReducers: (builder) => {
-    builder.addCase();
-  },
+  //   extraReducers: (builder) => {
+  //     builder.addCase();
+  //   },
 });
 
 export const authReducer = authSlice.reducer;
