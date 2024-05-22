@@ -1,3 +1,15 @@
 .input {
-  width: 315px;
+  padding: 5px;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 4px 3px gray;
+  border-radius: 8px;
+}
+.search {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 300px;
+  border: 3px solid rgb(156, 28, 28);
+  padding: 10px;
+  margin: 0 auto;
 }

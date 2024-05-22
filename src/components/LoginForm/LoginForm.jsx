@@ -43,7 +43,7 @@ const LoginForm = () => {
         />
         <ErrorMessage name="name" component="span" className={c.error} />
 
-        <Link to="/login">Already have account? Lets login!</Link>
+        <Link to="/register">Do not have account? Lets create!</Link>
 
         <div className="">
           <button type="submit" className={c.button}>

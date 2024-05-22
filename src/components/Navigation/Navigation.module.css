@@ -1,0 +1,15 @@
+.link {
+  margin-top: 10px;
+  color: rgb(37, 83, 223);
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover {
+    color: rgb(132, 127, 173);
+  }
+}
+
+.active {
+  color: rgb(146, 58, 58);
+}

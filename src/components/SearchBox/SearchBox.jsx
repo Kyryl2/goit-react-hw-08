@@ -9,7 +9,7 @@ const SearchBox = () => {
   };
 
   return (
-    <div>
+    <div className={c.search}>
       <p>Find contacts by name</p>
       <input type="text" onChange={handleChange} className={c.input} />
     </div>

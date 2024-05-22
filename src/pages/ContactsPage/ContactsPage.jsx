@@ -12,8 +12,8 @@ const ContactsPage = () => {
     dispatch(fetchContacts());
   }, [dispatch]);
   return (
-    <div>
-      <h1>Phonebook</h1>
+    <div style={{ margin: "0 auto" }}>
+      <h1 style={{ margin: 20, textAlign: "center" }}>Phonebook</h1>
       <ContactForm />
       <SearchBox />
 
