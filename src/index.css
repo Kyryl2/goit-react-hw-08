@@ -1,3 +1,6 @@
 body {
+  background-size: cover;
+
+  font-family: "Montserrat";
   background-image: url("https://cdn.pixabay.com/photo/2021/08/18/19/12/abstract-background-6556364_1280.jpg");
 }

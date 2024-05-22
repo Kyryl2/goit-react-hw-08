@@ -4,11 +4,13 @@
   align-items: center;
   list-style-type: none;
   border: solid black 1px;
-  width: 250px;
+  width: calc((100% - (3 * 20px + 2 * 20px)) / 3);
   border-radius: 10px;
   padding: 10px;
 }
 
 .button {
   padding: 5px 10px;
+  border-radius: 10px;
+  background-color: blueviolet;
 }
