@@ -54,7 +54,7 @@ const App = () => {
               path="/register"
               element={
                 <RestrictedRoute
-                  redirectTo="/tasks"
+                  redirectTo="/contacts"
                   component={<RegisterPage />}
                 />
               }
